@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+<meta name="google-site-verification" content="eo3-pOtFcQmAEVd3kIUKrFu2D58KjQtSaHK3Yx9eD3E" />
+
+<title>DesignX | تصميم مواقع، تصميم جرافيك، وخدمات الذكاء الاصطناعي</title>
+
+<meta name="description" content="DesignX تقدم خدمات تصميم المواقع الاحترافية، التصميم الجرافيكي، والذكاء الاصطناعي بأعلى جودة.">
+
+<meta name="keywords" content="DesignX, تصميم مواقع, تصميم جرافيك, ذكاء اصطناعي, AI, Web Design">
+
+<meta name="author" content="Yousef Ayman">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "ybH2jwzSO-YW8U6YN",
+});
+</script>
+
+</head>
+
+<body>
+
+    <!-- محتوى الموقع هنا -->
+
+
+    <script type="module" src="firebase.js"></script>
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "ybH2jwzSO-YW8U6YN",
+    });
+</script>
+
+<script src="script.js"></script>
+
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+</body>
+
+<!-- Service Popup -->
+
+<div id="servicePopup" class="popup">
+
+    <div class="popup-content">
+
+        <span class="close-popup">&times;</span>
+
+        <h2 id="popupTitle"></h2>
+
+        <div id="popupBody"></div>
+
+    </div>
+
+</div>
+
+    <!-- الخلفية المتحركة -->
+    <div class="bg-animation"></div>
+
+<header>
+
+    <a href="#home" class="logo">
+    DesignX
+</a>
+<nav id="navMenu">
+    <a href="#home">الرئيسية</a>
+    <a href="#services">الخدمات</a>
+    <a href="#portfolio">أعمالنا</a>
+    <a href="#testimonials">آراء العملاء</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+<button id="themeBtn">
+    🌙
+</button>
+
+    <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+
+</header>
+
+<!-- Hero Section -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">
+            🚀 مرحبًا بك في DesignX
+        </span>
+
+        <h1>
+            نصنع مواقع احترافية
+            <br>
+            بتصميمات عصرية
+        </h1>
+
+        <p>
+
+            نقدم تصميم مواقع احترافية، واجهات مستخدم،
+            برمجة، تصميم جرافيك، وفيديوهات بالذكاء الاصطناعي
+            بأعلى جودة وأحدث التقنيات.
+
+        </p>
+
+        <div class="hero-buttons">
+
+           <a href="#contact" class="btn-primary">
+    ابدأ مشروعك
+</a>
+
+           <a href="#services" class="btn-secondary">
+    خدماتنا
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        Services
+=========================== -->
+
+<section id="services" class="services">
+
+    <h2>خدماتنا</h2>
+
+    <p class="section-text">
+        نقدم أفضل الحلول الرقمية بأحدث التقنيات.
+    </p>
+
+    <div class="services-container">
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                🌐
+            </div>
+
+            <h3>تصميم المواقع</h3>
+
+            <p>
+                تصميم مواقع احترافية سريعة ومتوافقة مع جميع الأجهزة.
+            </p>
+
+        <a href="#" class="service-btn" data-service="website">
+    اعرف المزيد →
+</a>
+
+        </div>
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                🎨
+            </div>
+
+            <h3>التصميم الجرافيكي</h3>
+
+            <p>
+                تصميم شعارات وهوية بصرية وإعلانات احترافية.
+            </p>
+
+          <a href="#" class="service-btn" data-service="graphic">
+    اعرف المزيد →
+</a>
+
+        </div>
+
+        <div class="service-card">
+
+            <div class="service-icon">
+                🤖
+            </div>
+
+            <h3>الذكاء الاصطناعي</h3>
+
+            <p>
+                إنشاء صور وفيديوهات وإعلانات بالذكاء الاصطناعي.
+            </p>
+
+            <a href="#" class="service-btn" data-service="ai">
+    اعرف المزيد →
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        Portfolio
+=========================== -->
+
+<section id="portfolio" class="portfolio">
+
+    <h2>أعمالنا</h2>
+
+    <p class="section-text">
+        بعض الخدمات والمشاريع التي نقدمها لعملائنا.
+    </p>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+
+            <span>🌐</span>
+
+            <h3>موقع شركة</h3>
+
+            <p>
+                تصميم وبرمجة مواقع شركات احترافية وسريعة.
+            </p>
+
+            <a href="#contact">اطلب الآن →</a>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <span>🛒</span>
+
+            <h3>متجر إلكتروني</h3>
+
+            <p>
+                إنشاء متاجر إلكترونية احترافية وربط وسائل الدفع.
+            </p>
+
+            <a href="#contact">اطلب الآن →</a>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <span>📱</span>
+
+            <h3>تطبيقات ويب</h3>
+
+            <p>
+                تطوير تطبيقات ويب حديثة وسريعة الاستجابة.
+            </p>
+
+            <a href="#contact">اطلب الآن →</a>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <span>🤖</span>
+
+            <h3>حلول الذكاء الاصطناعي</h3>
+
+            <p>
+                إنشاء صور وفيديوهات وأتمتة الأعمال باستخدام AI.
+            </p>
+
+            <a href="#contact">اطلب الآن →</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Features -->
+<!-- Statistics Section -->
+<section id="stats" class="stats">
+
+    <h2>إحصائياتنا</h2>
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+            <h3 class="counter" data-target="250">0</h3>
+            <p>مشروع مكتمل</p>
+        </div>
+
+        <div class="stat-box">
+            <h3 class="counter" data-target="180">0</h3>
+            <p>عميل سعيد</p>
+        </div>
+
+        <div class="stat-box">
+            <h3 class="counter" data-target="5">0</h3>
+            <p>سنوات خبرة</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>24/7</h3>
+            <p>دعم فني</p>
+        </div>
+
+    </div>
+<!-- ===========================
+     Testimonials
+=========================== -->
+
+<section id="testimonials" class="testimonials">
+
+    <h2>آراء عملائنا</h2>
+
+    <div id="reviewsContainer"></div>
+    <form id="reviewForm" class="review-form">
+
+    <input
+        type="text"
+        id="reviewName"
+        placeholder="اسمك"
+        required
+    >
+
+    <select id="reviewRating" required>
+        <option value="">اختر التقييم</option>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+    </select>
+
+    <textarea
+        id="reviewMessage"
+        placeholder="اكتب رأيك"
+        required
+    ></textarea>
+
+    <button type="submit">
+        إرسال الرأي
+    </button>
+
+</form>
+    </div>
+
+</section>
+</section>
+
+    <section class="features" data-aos="fade-up">
+
+        <h2>لماذا تختار DesignX ؟</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+                <i class="fas fa-laptop-code"></i>
+                <h3>تصميم احترافي</h3>
+                <p>نصمم مواقع حديثة بأفضل التقنيات.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-bolt"></i>
+                <h3>سرعة عالية</h3>
+                <p>سرعة تحميل ممتازة وتجربة استخدام رائعة.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>حماية قوية</h3>
+                <p>أمان واستقرار للموقع بأحدث المعايير.</p>
+            </div>
+
+            <div class="feature-box">
+                <i class="fas fa-headset"></i>
+                <h3>دعم فني</h3>
+                <p>دعم مستمر للإجابة عن جميع استفساراتك.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<button id="topBtn">↑</button>
+<!-- ===========================
+        Our Team
+=========================== -->
+
+<section id="team" class="team">
+
+    <h2>فريق العمل</h2>
+
+    <p class="section-text">
+        فريق متخصص في تصميم وتطوير الحلول الرقمية الحديثة.
+    </p>
+
+    <div class="team-container">
+
+        <div class="team-card">
+
+            <div class="team-img">
+                👨‍💻
+            </div>
+
+            <h3>يوسف أيمن</h3>
+
+            <span>Founder & CEO</span>
+
+            <p>
+                مطور مواقع ومصمم واجهات وتجارب مستخدم، ومهتم بالذكاء الاصطناعي.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        Achievements
+=========================== -->
+
+<section id="achievements" class="achievements">
+
+    <h2>إنجازاتنا</h2>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            🏆
+            <h3>+250</h3>
+            <p>مشروع ناجح</p>
+        </div>
+
+        <div class="achievement-card">
+            😊
+            <h3>+180</h3>
+            <p>عميل سعيد</p>
+        </div>
+
+        <div class="achievement-card">
+            ⭐
+            <h3>5.0</h3>
+            <p>متوسط التقييم</p>
+        </div>
+
+        <div class="achievement-card">
+            🚀
+            <h3>24/7</h3>
+            <p>دعم فني</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        Contact Us
+=========================== -->
+<section id="contact">
+
+<h2>تواصل معنا</h2>
+
+<p>
+يسعدنا الرد على جميع استفساراتك، املأ النموذج وسنتواصل معك في أقرب وقت.
+</p>
+
+
+<form id="contact-form">
+
+<input 
+type="text"
+name="name"
+placeholder="الاسم"
+required>
+
+
+<input
+type="email"
+name="email"
+placeholder="البريد الإلكتروني"
+required>
+
+
+<textarea
+name="message"
+placeholder="اكتب رسالتك"
+required></textarea>
+
+
+<button type="submit">
+إرسال 🚀
+</button>
+
+</form>
+
+</section>
+<!-- ===========================
+        FAQ
+=========================== -->
+
+<section id="faq" class="faq">
+
+    <h2>الأسئلة الشائعة</h2>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            كم يستغرق تنفيذ الموقع؟
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                يختلف حسب حجم المشروع، ولكن أغلب المواقع يتم تنفيذها خلال عدة أيام إلى أسبوعين.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            هل الموقع يعمل على الموبايل؟
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                نعم، جميع المواقع التي نقوم بتطويرها متوافقة مع الهواتف والأجهزة اللوحية.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            هل يوجد دعم بعد التسليم؟
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                نعم، نقدم دعمًا فنيًا بعد التسليم حسب الاتفاق مع العميل.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        Footer
+=========================== -->
+<footer id="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>DesignX</h2>
+
+            <p>
+                نصنع مواقع إلكترونية احترافية، وتصميمات إبداعية،
+                وحلول رقمية حديثة بأعلى جودة.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>روابط سريعة</h3>
+
+            <a href="#home">الرئيسية</a>
+            <a href="#services">الخدمات</a>
+            <a href="#portfolio">أعمالنا</a>
+            <a href="#contact">تواصل معنا</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>تابعنا</h3>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 DesignX | جميع الحقوق محفوظة | تطوير بواسطة يوسف أيمن
+    </p>
+    
+        <div class="footer-box">
+
+            <h3>تواصل معنا</h3>
+
+            <p>📞 + 201118270369</p>
+
+            <p>📧 yousef.ayman.2013.2022@gmail.com</p>
+
+            <p>📍 Egypt</p>
+
+        </div>
+
+</footer>
+
+<!-- زر واتساب -->
+
+<a
+    href="https://wa.me/201118270369?text=السلام عليكم، أريد الاستفسار عن خدمات DesignX"
+    class="whatsapp-btn"
+    target="_blank"
+>
+    💬
+</a>
+
+    <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+</body>
+<!-- ===========================
+        Loading Screen
+=========================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>DesignX</h1>
+
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+
+        <p>Loading...</p>
+
+    </div>
+<div class="cursor-glow"></div>
+</div>
+</html>
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "ybH2jwzSO-YW8U6YN",
+});
+</script>
+<!-- Script -->
+<script src="script.js"></script>
+
+<!-- AOS -->
+<script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+
+</body>
+</html>
